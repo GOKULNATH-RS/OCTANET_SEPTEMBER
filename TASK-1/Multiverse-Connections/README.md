@@ -6,6 +6,7 @@ Multiverse Connections is a personal project inspired by a fascination with para
 
 ## Demo
 
+
 You can explore a live demo of Multiverse Connections [here](https://multiverseconnections.netlify.app/).
 
 ## Technologies Used
