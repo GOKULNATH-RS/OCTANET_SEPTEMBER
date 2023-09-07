@@ -1,8 +1,17 @@
-# React + Vite
+# Multiverse Connections
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Multiverse Connections](https://i.ibb.co/tMz8TKK/Multiverse-Connections.png)
 
-Currently, two official plugins are available:
+Multiverse Connections is a personal project inspired by a fascination with parallel universes and interdimensional communication. This website serves as a platform that allows users to explore and interact with alternate realities, even though it's based on an imaginary concept.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo
+
+You can explore a live demo of Multiverse Connections [here](https://multiverseconnections.netlify.app/).
+
+## Technologies Used
+
+- React
+- Tailwind CSS
+
+
+**Enjoy exploring the multiverse!** 🚀🌠
