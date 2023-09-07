@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Aquire";
+  src: url("./static/fonts/Aquire-BW0ox.otf");
+}
+
+@font-face {
+  font-family: "AquireLight";
+  src: url("./static/fonts/AquireLight-YzE0o.otf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+@layer utilities {
+  .gradient-01 {
+    @apply bg-gradient-to-r from-[#FC00FF] to-[#00DBDE];
+  }
+
+  .gradient-footer {
+    @apply bg-gradient-to-r from-[#00DBDE] to-[#FC00FF];
+  }
+
+  .gradient-02 {
+    @apply bg-gradient-to-b from-[#7EEEF9] via-[#316385] to-[#907DEA] opacity-20;
+  }
+
+  .glassmorphism {
+    @apply bg-slate-400 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-[0.15];
+  }
+
+  .section-head {
+    @apply text-[50px] tracking-widest;
+  }
+
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+  .input {
+    @apply p-2 px-6 rounded-full w-80 h-14 border-slate-400 border-[1px] glassmorphism;
+  }
+}
